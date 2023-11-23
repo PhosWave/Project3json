@@ -1,43 +1,54 @@
-questions: [
-      {
-        question: "Which of the following is a primitive data type in JavaScript?",
-        options: [
-          {id: "a", text: "Object"},
-          {id: "b", text: "Array"},
-          {id: "c", text: "String"},
-          {id: "d", text: "Function"}
-        ],
-        correctAnswer: "c"
-      },
-      {
-        question: "What does the '=== 'operator do in JavaScript?",
-        options: [
-          {id: "a", text: "Checks for equality without type coercion"},
-          {id: "b", text: "Checks for equality with type coercion"},
-          {id: "c", text: "Assigns a value to a variable"},
-          {id: "d", text: "Declares a strict variable"}
-        ],
-        correctAnswer: "a"
-      },
-      {
-        question: "What is the purpose of the 'querySelector' method in JavaScript?",
-        options: [
-          {id: "a", text: "To query a database"},
-          {id: "b", text: "To select elements from the DOM"},
-          {id: "c", text: "To query the browser's history"},
-          {id: "d", text: "To query external APIs"}
-        ],
-        correctAnswer: "b"
-      },
-      {
-        question: "How do you comment a single line in JavaScript?",
-        options: [
-          {id: "a", text: "// This is a comment"},
-          {id: "b", text: "/* This is a comment */"},
-          {id: "c", text: "# This is a comment"},
-          {id: "d", text: "' This is a comment"}
-        ],
-        correctAnswer: "a"
-      }
-    ]
-  };
+{
+  "questions": [
+    {
+      "question": "Which method is used to concatenate two or more strings in JavaScript?",
+      "choices": [
+        { "id": "a", "text": "concat()" },
+        { "id": "b", "text": "merge()" },
+        { "id": "c", "text": "combine()" },
+        { "id": "d", "text": "append()" }
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "How do you access the third element of an array?",
+      "choices": [
+        { "id": "a", "text": "myArray[2]" },
+        { "id": "b", "text": "myArray[3]" },
+        { "id": "c", "text": "myArray.third" },
+        { "id": "d", "text": "myArray.element(3)" }
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Which array method is used to add elements to the end of an array?",
+      "choices": [
+        { "id": "a", "text": "push()" },
+        { "id": "b", "text": "pop()" },
+        { "id": "c", "text": "shift()" },
+        { "id": "d", "text": "unshift()" }
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "What does the 'length' property of an array represent?",
+      "choices": [
+        { "id": "a", "text": "The number of elements in the array" },
+        { "id": "b", "text": "The maximum length of the array" },
+        { "id": "c", "text": "The average length of the array elements" },
+        { "id": "d", "text": "The length of the array type" }
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "question": "How do you remove the last element from an array?",
+      "choices": [
+        { "id": "a", "text": "myArray.removeLast()" },
+        { "id": "b", "text": "myArray.splice(-1, 1)" },
+        { "id": "c", "text": "myArray.pop()" },
+        { "id": "d", "text": "myArray.shift()" }
+      ],
+      "correctAnswer": "c"
+    }
+  ]
+}
